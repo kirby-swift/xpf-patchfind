@@ -1,0 +1,6 @@
+.DS_Store
+/kernels
+output
+/tmp/
+*.dylib
+!output/**/*
