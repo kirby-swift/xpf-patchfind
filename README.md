@@ -2,6 +2,18 @@
 
 Standalone fork of [opa334/XPF](https://github.com/opa334/XPF) — kernel patchfinder used by jailbreak tooling (originally [Dopamine](https://github.com/opa334/Dopamine)). This repository contains **only** XPF + [ChOma](https://github.com/opa334/ChOma) (Mach-O / patchfinder primitives). No Dopamine app, exploits, or research trees.
 
+## Об авторе и цели проекта
+
+Я (**Kirby_swift**) пробовал создать jailbreak на новые версии iOS (целевая версия **26.2.1**). Я не знаю, будет ли на 100% работать этот проект на версиях до 26.3 и других девайсах. Моей целью было получить рабочий **XPF / PATCHFIND** с минимальными усилиями, мне помогала нейросеть. Если не ошибаюсь, это первый проект с подобным содержимым на новой версии iOS. Если у вас будут вопросы, обращайтесь.
+
+**Целевое устройство, на котором я тестировал:**
+
+| | |
+|---|---|
+| Модель | iPhone 13, 128 GB |
+| iOS | 26.2.1 |
+| Контекст | Project Dopamine — запущенный на новой версии iOS |
+
 ## What this is
 
 **XPF** (eXtended PatchFinder) scans a decompressed `kernelcache` and resolves kernel symbols/offsets into an XPC dictionary (`translation`, `trustcache`, `sandbox`, `physmap`, `struct`, `physrw`, optional `devmode`, `badRecovery`, etc.).
